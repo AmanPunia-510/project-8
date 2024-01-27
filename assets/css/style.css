@@ -54,7 +54,6 @@ section {
     width: 100%;
     padding-left: 12px;
     padding-right: 12px;
-    overflow-x: scroll;
 }
 
 .token {
@@ -173,4 +172,13 @@ tbody tr td {
 
 thead tr th {
     padding: 22px;
+}
+
+@media (max-width:693px) {
+    .col-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+        overflow-x: scroll;
+    }
 }
